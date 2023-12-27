@@ -3,7 +3,7 @@
 
 const Header = () => {
   return (
-    <div className='w-full bg-slate-100 h-10'>Navbar</div>
+    <div className='w-full padding-x padding-y bg-slate-100'>Navbar</div>
   )
 }
 
