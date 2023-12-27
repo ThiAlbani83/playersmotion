@@ -1,12 +1,14 @@
 import Footer from "./components/Footer"
 import Header from "./components/Header"
+import Hero from "./components/Hero"
 
 
 function App() {
 
   return (
-    <main className="flex flex-col h-screen justify-between">
+    <main className="flex flex-col">
       <Header />
+      <Hero />
       <Footer />
     </main>
   )
