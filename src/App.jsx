@@ -9,7 +9,6 @@ function App() {
     <main className="flex flex-col">
       <Header />
       <Hero />
-      <Footer />
     </main>
   )
 }
