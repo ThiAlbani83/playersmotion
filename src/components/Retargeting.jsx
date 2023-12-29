@@ -2,7 +2,7 @@ import React from "react";
 
 const Retargeting = () => {
   return (
-    <section className="flex flex-col gap-3 font-normal">
+    <section className="flex flex-col gap-4 font-normal">
       <p className="">
         Retargeting, also known as remarketing, is a technique used in digital
         marketing, to re-engage users who have previously visited a website or
