@@ -6,16 +6,16 @@ const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="p-4 bg-gray-200 rounded-lg ">
+    <div className="p-4 bg-gray-200 rounded-lg shadow-md">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex items-center justify-between w-full"
       >
         <span>{title}</span>
         {accordionOpen ? (
-          <CiSquareMinus className="text-[27px]" />
+          <CiSquareMinus className="text-[27px] text-red-600" />
         ) : (
-          <CiSquarePlus className="text-[27px]" />
+          <CiSquarePlus className="text-[27px] text-green-600 font-bold" />
         )}
       </button>
       <div

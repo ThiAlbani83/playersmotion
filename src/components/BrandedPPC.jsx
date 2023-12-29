@@ -2,7 +2,7 @@ import React from "react";
 
 const BrandedPPC = () => {
   return (
-    <section className="flex flex-col gap-4 font-normal">
+    <section className="flex flex-col gap-4 mt-5 font-normal">
       <p className="">
         It refers to a digital marketing strategy where advertisers bid on
         keywords or search terms directly related to their own brand or
