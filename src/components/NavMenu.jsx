@@ -7,7 +7,6 @@ const NavMenu = () => {
         {menuItem.map((menu, index) => (
           <li key={index} className="hover:text-[#FF3131]">
             <a href={`#` + menu.item}>{menu.item}</a>
-            {console.log(menu.item)}
           </li>
         ))}
       </ul>
