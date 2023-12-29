@@ -6,7 +6,7 @@ const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="p-4 bg-gray-200 rounded-lg shadow-md">
+    <div className="p-4 rounded-lg shadow-md bg-slate-100">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex items-center justify-between w-full"
