@@ -20,3 +20,11 @@ html {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.form_input {
+    width: 100%;
+    padding: 12px 8px 12px 8px;
+    color: rgb(17 24 39);
+    border-radius: 6px;
+    background-color: rgb(241 245 249);    
+}
