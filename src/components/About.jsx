@@ -4,7 +4,7 @@ import Titles from "./Titles";
 const About = () => {
   return (
     <div className="w-full bg-gray-900" id="About Us">
-      <div className="w-full bg-[url('/about-banner.png')] bg-cover bg-no-repeat bg-center font-semibold flex flex-col gap-5 md:gap-7 lg:gap-10 xl:gap-14">
+      <div className="w-full bg-[url('/hero-banner.png')] bg-cover bg-no-repeat bg-center font-semibold flex flex-col gap-5 md:gap-7 lg:gap-10 xl:gap-14">
         <div className="flex flex-col items-start justify-center w-full h-full gap-5 bg-black/80 px-8 sm:px-16 md:px-28 lg:px-48 xl:px-80 py-5 md:py-10 lg:py-[60px]">
           <Titles title="About Us" textColor="text-slate-100" />
           <div className="flex flex-col w-full gap-5">
