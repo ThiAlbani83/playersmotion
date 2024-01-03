@@ -88,7 +88,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="w-full bg-gray-900 px-8 sm:px-16 md:px-28 lg:px-48 xl:px-80 py-5 md:py-10 lg:py-[60px] font-semibold flex flex-col gap-5 md:gap-7 lg:gap-10 xl:gap-14">
+    <div id="Contact" className="w-full bg-gray-950 px-8 sm:px-16 md:px-28 lg:px-48 xl:px-80 py-5 md:py-10 lg:py-[60px] font-semibold flex flex-col gap-5 md:gap-7 lg:gap-10 xl:gap-14">
       <Titles title="Contact Us" textColor="text-slate-100" />
       <div>
         <form

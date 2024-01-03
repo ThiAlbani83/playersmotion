@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div className="flex sticky top-0 z-50 items-center justify-between w-full px-8 sm:px-16 md:px-28 lg:px-48 xl:px-60 bg-[#FCFCFD]">
       <div>
-        <img src="/playersmotion-logo.png" alt="logo" className="h-20 w-36" />
+        <a href="#Home"><img src="/logo.png" alt="logo" className="h-20 w-36"/></a>
       </div>
       <div className="hidden lg:flex">
         <NavMenu />

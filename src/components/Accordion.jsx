@@ -11,7 +11,7 @@ const Accordion = ({ title, answer }) => {
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex items-center justify-between w-full"
       >
-        <span>{title}</span>
+        <span className="text-lg">{title}</span>
         {accordionOpen ? (
           <CiSquareMinus className="text-[27px] text-red-600" />
         ) : (
